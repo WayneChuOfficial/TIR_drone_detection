@@ -93,7 +93,11 @@ def main():
                     bar.set_description('video:%s acc = %.4f'%(subdir,expression1/T - 0.2 * (expression2/T_star)**0.3))
                 num += 1
                 bar.update(1)
-        acc_list.append(expression1/T - 0.2 * (expression2/T_star)**0.3)
+        if T_star > 0:
+            acc_list.append(expression1/T - 0.2 * (expression2/T_star)**0.3)
+        else:
+            acc_list.append(expression1/T)
+        #acc_list.append(expression1/T - 0.2 * (expression2/T_star)**0.3)
         
     print('processed on %d images' %num)
     with open('acc_result.txt','w',encoding = 'utf-8') as f:
