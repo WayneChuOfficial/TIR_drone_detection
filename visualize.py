@@ -55,4 +55,4 @@ if output.max() > 0:
     print(x,y,width,height)
     plt.plot([x,x+width,x+width,x,x],[y,y,y+height,y+height,y],c='r')
 plt.show()
-plt.savefig('vislize.png',bbox_inches = 'tight')
+plt.savefig('visualize.png',bbox_inches = 'tight')
