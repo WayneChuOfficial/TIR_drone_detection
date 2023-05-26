@@ -16,3 +16,6 @@ Then run the python file "preparedataset.py" to split the train and val dataset,
 ```
 python preparedataset.py
 ```
+
+### Train
+The setting files of training commands can be found and adjust in [parse_args_train](./model/parse_args_train.py).
