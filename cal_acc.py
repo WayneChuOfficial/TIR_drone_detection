@@ -101,7 +101,7 @@ def main():
         
     print('processed on %d images' %num)
     with open('acc_result.txt','w',encoding = 'utf-8') as f:
-        f.write(acc_list)
+        f.write(str(acc_list))
     print(np.average(np.array(acc_list)))
 
 if __name__ == "__main__":
