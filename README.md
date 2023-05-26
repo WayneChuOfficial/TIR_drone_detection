@@ -55,3 +55,4 @@ And there will be a picture named "visualize.png".
 ### Result
 After trained for 10 epochs, the mIoU on val set is 0.6091.
 ![](visualize.png)
+![](visualize1.png)
