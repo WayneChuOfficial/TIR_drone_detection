@@ -1,5 +1,5 @@
 # TIR_drone_detection
-Thermal Infrared Drone Detection
+Thermal Infrared Drone Detection Task
 
 ## Usage
 ### Data preparation
