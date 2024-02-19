@@ -29,7 +29,7 @@ To test the performace on UAV_dataset with default settings, run:
 ```
 python test.py
 ```
-The setting files of training commands can be found and adjust in [parse_args_tese](./model/parse_args_test.py).
+The setting files of training commands can be found and adjust in [parse_args_test](./model/parse_args_test.py).
 
 ### Inference
 To use the trained model to predict on test set, run:
